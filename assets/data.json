@@ -1,0 +1,377 @@
+{
+    "title" : "Pablo DeAlva Portfolio",
+    "description" : "Portfolio of papuuu21", 
+    "image" : "data/foto carnet.jpg",
+    "avatar" : "data/foto carnet.jpg",
+    "name": "Pablo Diaz de Alva",
+    "skill": "Data Analyst, Data Science, Data Engeenier & IA Developer",
+    "location" : "Malaga, Andalucia, Spain",
+    "media" : {
+        "email" : "dealva.pablo@gmail.com",
+        "cv" : "data/CV Pablo de Alva_06-2024.pdf",
+        "github" : "https://github.com/Papuuu21",
+        "likedin" : "https://www.linkedin.com/in/papudiaz/"
+    },
+    "about" : "Soy un profesional junior apasionado por el campo de la ciencia de datos, analisis de datos e ingenieria de datos, decidido a iniciar mi carrera en estas disciplinas. Me destaco por ser autodidacta, lo que me ha permitido adquirir y perfeccionar habilidades tecnicas y analiticas de manera independiente. Poseo una gran capacidad de adaptacion al cambio, lo que me permite integrarme rapidamente a nuevos equipos y proyectos. Estoy comprometido con el aprendizaje continuo, siempre buscando oportunidades para expandir mis conocimientos y mejorar mis competencias. Estoy entusiasmado por contribuir y crecer en un entorno dinamico y desafiante.",
+    "technologies" : [
+        {
+            "icon" : "devicon-azure-plain",
+            "name" : "Azure"
+        },
+        {
+            "icon" : "devicon-python-plain colored",
+            "name" : "Python"
+        },
+        {
+            "icon" : "devicon-visualstudio-plain colored",
+            "name" : "VScode"
+        },
+        {
+            "icon" : "devicon-streamlit-plain colored",
+            "name" : "Streamlit"
+        },
+        {
+            "icon" : "devicon-numpy-line",
+            "name" : "Numpy"
+        },
+        {
+            "icon" : "devicon-pandas-plain",
+            "name" : "Pandas"
+        },
+        {
+            "icon" : "devicon-matplotlib-plain",
+            "name" : "Matplotlib"
+        },
+        {
+            "icon" : "devicon-git-plain colored",
+            "name" : "Git"
+        },
+        {
+            "icon" : "devicon-fastapi-plain",
+            "name" : "Fastapi"
+        },
+        {
+            "icon" : "devicon-docker-plain",
+            "name" : "Docker"
+        },
+        {
+            "icon" : "devicon-mysql-original",
+            "name" : "MySQL"
+        },
+        {
+            "icon" : "devicon-python-plain colored",
+            "name" : "LangChain"
+        },
+        {
+            "icon" : "devicon-python-plain colored",
+            "name" : "Ollama"
+        },
+        {
+            "icon" : "devicon-python-plain colored",
+            "name" : "OpenAI"
+        },
+        {
+            "icon" : "devicon-css3-plain",
+            "name" : "CSS"
+        }
+    ],
+
+    "experience" : [
+        {
+            "icon" : "computer",
+            "title" : "Practicas IA Developer.",
+            "subtitle" : "Annalit SL",
+            "description" : "Creacion de chatbots con tecnologia de Microsoft Azure (Azure OpenAI, Search services y blob storage) y la libreria de Python de Azure para atencion al cliente y apoyo a los empleados de la empresa. Automatizacion de procesos con make y y chatbots con voiceflow para captacion de leads y creacion de base de datos de clientes potenciales.",
+            "image" : "data/logo annalit.png",
+            "date" : "1 years"
+        },
+        {
+            "icon" : "wifi",
+            "title" : "Creacion de infraestructuras de redes WIFI (Proyecto Vuela JdA)",
+            "subtitle" : "Innovasur SL",
+            "description" : "Dise\u00f1o de redes WIFI para proyecto Vuela de la agencia ADA de la Junta Andalucia y dise\u00f1o de racks, cableado estructurado y ubicacion de APs para la cobertura WIFI en sus sedes, como por ejemplo el Palacio de Justicia de Malaga. Auditorias instalaciones y puesta en marcha de la electronica de red. Analisis de cobertura, velocidad y seguridad en redes inalambricas y auditorias en la instalacion de puntos de acceso y antenas para optimizar se\u00f1al. Colaboracion en proyectos de implementacion de tecnologias WIFI avanzadas.",
+            "image" : "data/Logo-innovasur-2.jpeg",
+            "date" : "2 years"
+        },
+        {
+            "icon" : "factory",
+            "title" : "Responsable de administracion y RR.HH.",
+            "subtitle" : "DdA Telecomunicaciones SL",
+            "description" : "Coordinacion de procesos de seleccion y contratacion de personal y administracion de nominas y gestion de beneficios para empleados. Mantenimiento de archivos y documentacion laboral  y PRL de manera organizada y detallada. Revision de la contabilidad y estados financieros. Control de cobros y pagos a clientes y proveedores, gestion de compras, facturacion y presupuestos de obra. Calendarios, horarios y vacaciones de los trabajadores. Negociacion bancaria para confirming, creditos y mejora de intereses y condiciones bancarias.",
+            "image" : "data/logo dda.png",
+            "date" : "6 years"
+        }
+    ],
+    "projects" : [
+        {
+            "icon" : "bot",
+            "title" : "Chatbot Azure OpenAI",
+            "subtitle" : "Chatbot sobre la documentacion de la empresa",
+            "description" : "Creacion de chatbots con tecnologia de Microsoft Azure (Azure OpenAI, Search services y blob storage) y la libreria de Python de Azure para atencion al cliente y apoyo a los empleados de la empresa.",
+            "technologies" : [
+                {
+                    "icon" : "devicon-azure-plain colored",
+                    "name" : "Azure Blob Storage"
+                },
+                {
+                    "icon" : "devicon-azure-plain colored",
+                    "name" : "Azure Search (Cognitive Services)"
+                },
+                {
+                    "icon" : "devicon-azure-plain colored",
+                    "name" : "Azure OpenAI"
+                },
+                {
+                    "icon" : "devicon-python-plain colored",
+                    "name" : "Librerias Python Azure y OpenAI"
+                }
+            ],
+            "image" : "data/azure_logo.png",
+            "url" : "",
+            "github" : "https://github.com/Papuuu21"
+        },
+        {
+            "icon" : "trophy",
+            "title" : "Web Copa Fantasy Friends",
+            "subtitle" : "Resultados copa Fantasy",
+            "description" : "Web para que los participantes de la copa fantasy puedan ver los resultados de sus partidos y los enfrentamientos.",
+            "technologies" : [
+                {
+                    "icon" : "devicon-python-plain colored",
+                    "name" : "Python"
+                },
+                {
+                    "icon" : "devicon-css3-plain colored",
+                    "name" : "Css3"
+                },
+                {
+                    "icon" : "devicon-python-plain colored",
+                    "name" : "Reflex.dev"
+                }
+            ],
+            "image" : "data/webcopa.png",
+            "url" : "",
+            "github" : "https://github.com/Papuuu21" 
+        },
+        {
+            "icon" : "brain-circuit",
+            "title" : "Machine Learning y Deep Learning",
+            "subtitle" : "Aplicaciones de machine learning y deep learning en la empresa (En proceso)",
+            "description" : "Proyecto del curso aplicando tecnicas de machine learning y deep learning a las areas funcionales de la empresa.",
+            "technologies" : [
+                {
+                    "icon" : "devicon-numpy-plain colored",
+                    "name" : "Numpy"
+                },
+                {
+                    "icon" : "devicon-pandas-plain colored",
+                    "name" : "Pandas"
+                },
+                {
+                    "icon" : "devicon-matplotlib-plain",
+                    "name" : "Matplotlib/Seaborn"
+                },
+                {
+                    "icon" : "devicon-python-plain colored",
+                    "name" : "Statsmodels"
+                },
+                {
+                    "icon" : "devicon-python-plain colored",
+                    "name" : "Machine Learning"
+                },
+                {
+                    "icon" : "devicon-python-plain colored",
+                    "name" : "Redes Neuronales"
+                }
+            ],
+            "image" : "data/ML.jpg",
+            "url" : "",
+            "github" : "https://github.com/Papuuu21"
+        }
+    ],
+    "training" : [
+        {
+            "icon" : "graduation-cap",
+            "title" : "Bootcamp Big data, inteligencia artificial y machine learning fullstack",
+            "subtitle" : "Keepcoding",
+            "description" : "Arquitectura Cloud, Python, Scala, SQL/NoSQL, visualizacion con Tableau y JS, analisis con R, y modelado con IA, incluyendo Machine Learning, Deep Learning y NLP. Modelos de IA en la nube para ser el proximo experto en Data Science y Arquitecto Big Data.",
+            "date" : "En curso",
+            "certificate" : "data/Temario Bootcamp.pdf",
+            "technologies" : [
+                {
+                    "icon" : "devicon-python-plain colored",
+                    "name" : "Python"
+                },
+                {
+                    "icon" : "devicon-amazonwebservices-plain-wordmark colored",
+                    "name" : "Arquitectura Cloud AWS"
+                },
+                {
+                    "icon" : "devicon-azure-plain colored",
+                    "name" : "Arquitectura Cloud Azure"
+                },
+                {
+                    "icon" : "devicon-scala-plain colored",
+                    "name" : "Scala"
+                },
+                {
+                    "icon" : "devicon-postgresql-plain colored",
+                    "name" : "SQL/NoSQL"
+                },
+                {
+                    "icon" : "devicon-javascript-plain",
+                    "name" : "JavaScrip"
+                },
+                {
+                    "icon" : "devicon-r-plain colored",
+                    "name" : "R"
+                },
+                {
+                    "icon" : "devicon-python-plain",
+                    "name" : "ML/DL/NLP"
+                },
+                {
+                    "icon" : "",
+                    "name" : "ETL y DataWarehouse"
+                },
+                {
+                    "icon" : "",
+                    "name" : "Arquitectura Big Data"
+                },
+                {
+                    "icon" : "",
+                    "name" : "PowerBI"
+                },
+                {
+                    "icon" : "",
+                    "name" : "Tableau"
+                }
+            ]
+        },
+        {
+            "icon" : "graduation-cap",
+            "title" : "Curso para analisis de datos con Python (375H)",
+            "subtitle" : "Master D.",
+            "description" : "Aprendizaje del lenguaje de programacion de python y de las librerias Numpy, Pandas, Seaborn y Statsmodels para el analisis de datos.",
+            "date" : "1 years",
+            "certificate" : "data/Diploma Python.pdf",
+            "technologies" : [
+                {
+                    "icon" : "devicon-python-plain colored",
+                    "name" : "Python"
+                },
+                {
+                    "icon" : "devicon-python-plain colored",
+                    "name" : "Pandas"
+                },
+                {
+                    "icon" : "devicon-python-plain colored",
+                    "name" : "Statsmodels"
+                },
+                {
+                    "icon" : "devicon-python-plain colored",
+                    "name" : "Seaborn"
+                },
+                {
+                    "icon" : "devicon-python-plain colored",
+                    "name" : "Numpy"
+                }
+            ]
+        },
+        {
+            "icon" : "graduation-cap",
+            "title" : "Marketing e investigacion de mercados",
+            "subtitle" : "UMA",
+            "description" : "Grado en marketing e investigacion de mercados en la Universidad de Malaga",
+            "date" : "7 years",
+            "certificate" : "data/titulo Marketing.pdf",
+            "technologies" : [
+                {
+                    "icon" : "",
+                    "name" : "Econometria"
+                },
+                {
+                    "icon" : "",
+                    "name" : "Estadistica"
+                }
+            ]
+        },
+        {
+            "icon" : "scroll",
+            "title" : "Diplomas certificaciones tech",
+            "subtitle" : "Udemy, Keepcoding, Andalucia Vuela y Scrum",
+            "description" : "Diplomas de las certificaciones tech de autoaprendizaje en las plataformas de Udemy, Keepcoding, Andalucia Vuela y Scrum ",
+            "date" : "1 years",
+            "certificate" : "data/Diplomas_tech.pdf",
+            "technologies" : [
+                {
+                    "icon" : "devicon-azure-plain colored",
+                    "name" : "Azure"
+                },
+                {
+                    "icon" : "devicon-mysql-original",
+                    "name" : "SQL"
+                },
+                {
+                    "icon" : "devicon-git-plain colored",
+                    "name" : "Git, Github y SourceTree"
+                },
+                {
+                    "icon" : "devicon-docker-plain",
+                    "name" : "Docker"
+                },
+                {
+                    "icon" : "devicon-python-plain colored",
+                    "name" : "LangChain"
+                },
+                {
+                    "icon" : "devicon-python-plain colored",
+                    "name" : "OpenAI"
+                },
+                {
+                    "icon" : "devicon-python-plain colored",
+                    "name" : "ML/DL"
+                },
+                {
+                    "icon" : "devicon-django-plain",
+                    "name" : "Django"
+                },
+                {
+                    "icon" : "devicon-flask-original",
+                    "name" : "Flask"
+                },
+                {
+                    "icon" : "",
+                    "name" : "Scrum Master"
+                },
+                {
+                    "icon" : "",
+                    "name" : "Ciberseguridad"
+                }
+            ]
+        }
+    ],
+    "extras" : [
+        {
+            "image" : "data/logo udemy.png",
+            "title" : "Certificaciones tech Udemy",
+            "description" : "Master Azure OpenAI. Bootcamp IA Generativa y Aplicaciones LLM (Fullstack). Curso ML & DL con python. Master Django, Flask y Tkinter. Curso basico BBDD SQL (PostgrSQL).",
+            "url" : ""
+        },
+        {
+            "image" : "data/Cabecera.jpg",
+            "title" : "Certificaciones tech varios",
+            "description" : "Scrum Master. Primera Semana como DataScience. ML aplicado a las areas de la empresa (25h). IA y casos de uso(25h). Iniciacion en Ciberseguridad (25h). Docker desde cero. Git, Github y SourceTree. SQL y MySQL",
+            "url" : ""
+        },
+        {
+            "image" : "data/Cursos varios.jpg",
+            "title" : "Certificaciones y cursos no tech",
+            "description" : "Ingles B1, Curso superior contabilidad financiera (Deusto Formacion). Curso superior nominas y contratacion (Deusto Formacion).",
+            "url" : ""
+        }
+    ]
+
+}
+
+
