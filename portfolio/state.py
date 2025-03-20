@@ -1,14 +1,24 @@
 import reflex as rx
 import json
-from typing import List, Optional
+from typing import List, Dict, Any
+import os
 
-# Definir modelos usando rx.Model para serialización adecuada
-class Technology(rx.Model):
+# Definir modelos usando rx.Base o rx.Model para serialización adecuada
+
+class Technology(rx.Base):
     icon: str
     name: str
+    type: str
+
+class Extra(rx.Base):
+    image: str
+    title: str
+    description: str
+    url: str = ""
+    technologies: List[Technology]
 
 class Media(rx.Model):
-    email: str
+    email: str 
     cv: str
     github: str
     likedin: str
@@ -24,13 +34,7 @@ class Info(rx.Model):
     image: str = ""
     url: str = ""
     github: str = ""
-
-class Extras(rx.Model):
-    image: str
-    title: str
-    description: str
-    url: str
-
+    
 class PortfolioState(rx.State):
     # Propiedades básicas
     title: str = ""
@@ -51,13 +55,12 @@ class PortfolioState(rx.State):
     experience: List[Info] = []
     projects: List[Info] = []
     training: List[Info] = []
-    extras: List[Extras] = []
+    extras: List[Extra] = []  # Usamos el modelo Extra para los extras
 
     @rx.event
     async def on_load(self):
         with open("assets/data.json", "r", encoding="utf-8") as f:
             data = json.load(f)
-            
             # Cargar propiedades básicas
             self.title = data["title"]
             self.description = data["description"]
@@ -80,11 +83,15 @@ class PortfolioState(rx.State):
             self.experience = [Info(**exp) for exp in data["experience"]]
             self.projects = [Info(**proj) for proj in data["projects"]]
             self.training = [Info(**train) for train in data["training"]]
-            self.extras = [Extras(**extra) for extra in data["extras"]]
+            self.extras = [Extra(**extra) for extra in data.get("extras", [])]
 
-    @rx.var
+    @rx.var(cache=True)
     def get_technologies(self) -> List[Technology]:
         return self.technologies
+
+    @rx.var(cache=True)
+    def get_extras(self) -> List[Extra]:
+        return self.extras
 
     @rx.var(cache=True)
     def get_tech(self) -> str:
@@ -105,3 +112,5 @@ class PortfolioState(rx.State):
     @rx.var(cache=True)
     def get_lk(self) -> str:
         return self.likedin
+
+__all__ = ["PortfolioState"]

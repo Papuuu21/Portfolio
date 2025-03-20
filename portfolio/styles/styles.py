@@ -20,7 +20,6 @@ class EmSize(Enum):
 STYLE_SHEETS = {
     "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"  #* Hoja de estilos para la pagima devicons
 }
-
 BASE_STYLE = {
     rx.button: {
         "--cursor-button": "pointer",
