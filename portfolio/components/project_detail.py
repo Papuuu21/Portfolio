@@ -6,12 +6,11 @@ from portfolio.components.icon_button import icon_button
 from portfolio.components.devicon_badge import devicon_badge
 
 estilo_card = {
-    "background_color": "#283747",
+    "background_color": "#202248",
     "border": "3px solid #F4D03F",
     "border_radius": "20px",
     "box_shadow": "4px 8px #4E1511",
     "width": "100%",
-    #"max_width" : "400px",
     "overflow": "hidden"
 }
 
@@ -24,21 +23,22 @@ def projects_detail(info) -> rx.Component:
                     rx.text(
                         info.title,
                         weight="bold",
-                        color_scheme="cyan",
+                        color ="#5da730",
                         width="100%"
                     ),
                     rx.text(
                         info.subtitle,
-                        weight="bold",
-                        color_scheme="cyan",
-                        width="100%"
+                        weight= "bold",
+                        color = "#5da730",
+                        width = "100%"
                     ),
                     rx.text(
                         info.description,
-                        size='2',
-                        weight="bold",
+                        size='1',
                         width="100%",
-                        color = 'tomato'
+                        color = '#876505',
+                        white_space="pre-line",
+                        style={"font_family": "Open Sans Medium 500"},
                     ),
                     # Technologies section
                     rx.flex(
@@ -49,15 +49,17 @@ def projects_detail(info) -> rx.Component:
                                     rx.cond(
                                         tech.type == "devicon",
                                         devicon_badge(tech.icon),
-                                        rx.icon(tag='computer')
+                                        rx.icon(
+                                            tag='brain-circuit',
+                                            color = 'orange'
+                                        )
                                     ),
                                     tech.name,
                                     align="center",
                                     size='1',
-                                    color_scheme='cyan',
                                     radius='full',
-                                    variant='soft',
-                                    color = 'cyan',
+                                    variant='surface',
+                                    color = '#5da730',
                                     spacing = '2',
                                     padding_x = '2',
                                 ),
@@ -65,7 +67,8 @@ def projects_detail(info) -> rx.Component:
                         justify="start",
                         wrap="wrap",
                         spacing='3',
-                        width="100%"
+                        width="100%",
+                        color = '#202248'
                     ),
                     align_items="flex-start",
                     width="70%",
@@ -90,9 +93,15 @@ def projects_detail(info) -> rx.Component:
                                     "github",
                                     info.github,
                                     solid=False,
-                                ),
-                                variant="soft",
+                                ), 
+                                variant="surface",
                                 size='3',
+                                _hover = 
+                                    {
+                                    'border_color': 'gray.500', "transform": "translateY(-5px)", 
+                                    "transition": "transform 0.3s ease", "background_color": "#0090FF",
+                                    "cursor": "pointer"
+                                    },  
                             ),
                         ),
                         rx.cond(
@@ -103,7 +112,7 @@ def projects_detail(info) -> rx.Component:
                                     info.url,
                                     solid=False,
                                 ),
-                                variant="soft",
+                                variant="surface",
                                 size='2',
                             ),
                         ),

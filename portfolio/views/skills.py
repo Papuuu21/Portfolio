@@ -1,7 +1,7 @@
 import reflex as rx
 from portfolio.components.heading import heading
 from portfolio.styles.styles import Size
-from portfolio.components.cardSkills import card_daDs, card_ia, card_varios, card_bigdata
+from portfolio.components.cardSkills import card_daDs, card_ia, card_general, card_bigdata
 
 # Componente para mostrar todas las tarjetas
 def skills() -> rx.Component:
@@ -11,7 +11,7 @@ def skills() -> rx.Component:
         card_daDs(),
         card_ia(),
         card_bigdata(),
-        card_varios(),
+        card_general(),
         wrap = 'wrap',
         spacing = '3',
         align = 'center',

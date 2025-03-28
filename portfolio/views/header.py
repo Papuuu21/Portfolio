@@ -28,7 +28,7 @@ def header() -> rx.Component:
                     display = "inherit", 
                     size = '4',
                     text_shadow ='2px 5px #000000',
-                    color = '#F4D03F',
+                    color = '#d1d975',
                     padding_bottom = '1em'
                 ),
                 social_media(

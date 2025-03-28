@@ -18,5 +18,5 @@ def devicon_badge(icon: str) -> rx.Component:
             dangerously_set_inner_html=True,
         ),
         aspect_ratio="1",
-        size="1",
+        size="3", 
     )

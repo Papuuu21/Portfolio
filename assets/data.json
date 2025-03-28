@@ -8,9 +8,9 @@
     "location": "Malaga, Andalucia, Spain",
     "media": {
     "email": "dealva.pablo@gmail.com",
-    "cv": "data/CV Pablo de Alva_06-2024.pdf",
+    "cv": "data/CV.pdf",
     "github": "https://github.com/Papuuu21",
-    "likedin": "https://www.linkedin.com/in/papudiaz/"
+    "likedin": "https://www.linkedin.com/in/papuuu21/"
     },
     "about": "Soy un profesional junior apasionado por el campo de la ciencia de datos, analisis de datos e ingenieria de datos, decidido a iniciar mi carrera en estas disciplinas. Me destaco por ser autodidacta, lo que me ha permitido adquirir y perfeccionar habilidades tecnicas y analiticas de manera independiente. Poseo una gran capacidad de adaptacion al cambio, lo que me permite integrarme rapidamente a nuevos equipos y proyectos. Estoy comprometido con el aprendizaje continuo, siempre buscando oportunidades para expandir mis conocimientos y mejorar mis competencias. Estoy entusiasmado por contribuir y crecer en un entorno dinamico y desafiante.",
     "technologies": [
@@ -91,85 +91,256 @@
     }
     ],
     "experience": [
+        {
+            "icon": "computer",
+            "title": "DATA SCIENTIST E IA.",
+            "subtitle": "Keepcoding",
+            "description": "Desarrollé soluciones avanzadas en Data Science e IA, incluyendo el análisis de mercado en Airbnb Madrid para optimizar precios y modelos predictivos de ROI en puntos de interés. \n\n Implementé técnicas de NLP para analizar sentimientos en reseñas de Amazon, mejorando la precisión en un 5%, y diseñé un chatbot inteligente que redujo costos en un 45%. \n\n Especializado en Machine Learning, Deep Learning y Big Data, trabajé con Python, R, SQL, Spark, Google Cloud y Docker, integrando múltiples fuentes de datos mediante ETL y arquitecturas en la nube. Mi enfoque combina análisis estratégico y automatización, generando soluciones eficientes y escalables para la toma de decisiones basada en datos.\n\n",
+            "image": "data/keepcoding_logo.jpg",
+            "date": "1 año",
+            "github" : "https://github.com/Papuuu21",
+            "technologies": [
+            {
+                "icon": "devicon-r-plain colored",
+                "name": "R",
+                "type": "devicon"
+            },
+            {
+                "icon": "devicon-rstudio-plain colored",
+                "name": "R Studio",
+                "type": "devicon"
+            },
+            {
+                "icon": "devicon-postgresql-plain colored",
+                "name": "SQL",
+                "type": "devicon"
+            },
+            {
+                "icon": "devicon-scala-plain colored",
+                "name": "Scala",
+                "type": "devicon"
+            },
+            {
+                "icon": "devicon-scikitlearn-plain colored",
+                "name": "Scikit-Learn",
+                "type": "devicon"
+            },
+            {
+                "icon": "devicon-googlecloud-plain colored",
+                "name": "GCP",
+                "type": "devicon"
+            },
+            {
+                "icon": "devicon-hadoop-plain colored",
+                "name": "Hadoop",
+                "type": "devicon"
+            },
+            {
+                "icon": "devicon-apachespark-original colored",
+                "name": "Spark",
+                "type": "devicon"
+            },
+            {
+                "icon": "devicon-git-plain colored",
+                "name": "Git",
+                "type": "devicon"
+            },
+            {
+                "icon": "devicon-docker-plain colored",
+                "name": "Docker",
+                "type": "devicon"
+            },
+            {
+                "icon": "devicon-fastapi-plain colored",
+                "name": "Fastapi",
+                "type": "devicon"
+            },
+            {
+                "icon": "devicon-numpy-plain colored",
+                "name": "Numpy",
+                "type": "devicon"
+            },
+            {
+                "icon": "devicon-pandas-plain colored",
+                "name": "pandas",
+                "type": "devicon"
+            },
+            {
+                "icon": "devicon-pytorch-original colored",
+                "name": "Pytorch",
+                "type": "devicon"
+            },
+            {
+                "icon": "devicon-anaconda-original colored",
+                "name": "Anaconda",
+                "type": "devicon"
+            },
+            {
+                "icon": "devicon-python-plain colored",
+                "name": "Python",
+                "type": "devicon"
+            },
+            {
+                "icon": "chart-area",
+                "name": "PowerBI",
+                "type": "lucide"
+            },
+            {
+                "icon": "chart-scatter",
+                "name": "Seaborn",
+                "type": "lucide"
+            },
+            {
+                "icon": "activity",
+                "name": "MLFlow",
+                "type": "lucide"
+            },
+            {
+                "icon": "monitor-speaker",
+                "name": "NLP",
+                "type": "lucide"
+            },
+            {
+                "icon": "database-search",
+                "name": "Spacy",
+                "type": "lucide"
+            },
+            {
+                "icon": "database-search",
+                "name": "NLTK",
+                "type": "lucide"
+            },
+            {
+                "icon": "brain-circuit",
+                "name": "Mistral AI",
+                "type": "lucide"
+            }
+            ]
+        },
     {
         "icon": "computer",
-        "title": "Practicas IA Developer.",
+        "title": "IA DEVELOPER.",
         "subtitle": "Annalit SL",
-        "description": "Creacion de chatbots con tecnologia de Microsoft Azure (Azure OpenAI, Search services y blob storage) y la libreria de Python de Azure para atencion al cliente y apoyo a los empleados de la empresa. Automatizacion de procesos con make y y chatbots con voiceflow para captacion de leads y creacion de base de datos de clientes potenciales.",
+        "description": "Implementé un chatbot avanzado de atención al cliente capaz de procesar documentos PDF, evaluando y comparando modelos de lenguaje en entornos de CPU y cloud, con énfasis en la selección y optimización de modelos de inteligencia artificial para extracción y respuesta inteligente de información. \n\n Seleccioné e implementé Open AI en Azure como modelo óptimo para procesamiento en la nube, desarrollé pipeline de extracción de información de documentos PDF y optimicé rendimiento de chatbot.\n\n",
         "image": "data/logo annalit.png",
-        "date": "1 years",
+        "date": "1 años",
         "github" : "https://github.com/Papuuu21",
         "technologies": [
-        {
-            "icon": "devicon-azure-plain",
-            "name": "OpenAI",
-            "type": "devicon"
-        },
-        {
-            "icon": "database-search",
-            "name": "SQL",
-            "type": "lucide"
-        },
-        {
-            "icon": "hard-drive",
-            "name": "Azure",
-            "type": "lucide"
-        },
-        {
-            "icon": "devicon-python-plain",
-            "name": "Python",
-            "type": "devicon"
-        }
+            {
+                "icon": "devicon-git-plain colored",
+                "name": "Git",
+                "type": "devicon"
+            },
+            {
+                "icon": "devicon-numpy-plain colored",
+                "name": "Numpy",
+                "type": "devicon"
+            },
+            {
+                "icon": "devicon-pandas-plain colored",
+                "name": "pandas",
+                "type": "devicon"
+            },
+            {
+                "icon": "devicon-azure-plain colored",
+                "name": "Azure",
+                "type": "devicon"
+            },
+            {
+                "icon": "devicon-git-plain colored",
+                "name": "Git",
+                "type": "devicon"
+            },
+            {
+                "icon": "devicon-python-plain colored",
+                "name": "Python",
+                "type": "devicon"
+            },
+            {
+                "icon": "computer",
+                "name": "OpenAI",
+                "type": "lucide"
+            },
+            {
+                "icon": "database-search",
+                "name": "Sentiment Analysis",
+                "type": "lucide"
+            },
+            {
+                "icon": "database-search",
+                "name": "ETL",
+                "type": "lucide"
+            },
+            {
+                "icon": "database-search",
+                "name": "Embedding",
+                "type": "lucide"
+            },
+            {
+                "icon": "database-search",
+                "name": "LangChain",
+                "type": "lucide"
+            },
+            {
+                "icon": "database-search",
+                "name": "Hugging Face",
+                "type": "lucide"
+            }
         ]
     },
     {
         "icon": "wifi",
-        "title": "Creacion de infraestructuras de redes WIFI (Proyecto Vuela JdA)",
+        "title": "DISEÑO REDES WIFI(Proyecto Vuela JdA)",
         "subtitle": "Innovasur SL",
-        "description": "Diseño de redes WIFI para proyecto Vuela de la agencia ADA de la Junta Andalucia y diseño de racks, cableado estructurado y ubicacion de APs para la cobertura WIFI en sus sedes, como por ejemplo el Palacio de Justicia de Malaga. Auditorias instalaciones y puesta en marcha de la electronica de red. Analisis de cobertura, velocidad y seguridad en redes inalambricas y auditorias en la instalacion de puntos de acceso y antenas para optimizar señal. Colaboracion en proyectos de implementacion de tecnologias WIFI avanzadas.",
+        "description": "Diseñé infraestructuras WiFi corporativas para múltiples edificios gubernamentales, incluyendo el Palacio de Justicia de Málaga, Centros de Salud y Delegación de Hacienda, realizando estudios detallados de cobertura, planificación de redes y optimización de conectividad para la administración pública.\n\n Implementé soluciones de red WiFi en instituciones clave de la Junta de Andalucía, garantizando una cobertura integral y segura, optimicé la conectividad inalámbrica mejorando la eficiencia operativa en un 40%, y desarrollé planos técnicos precisos que aseguraron una implementación efectiva de la infraestructura de red corporativa\n\n",
         "image": "data/Logo-innovasur-2.jpeg",
-        "date": "2 years",
+        "date": "2 años",
         "github" : "https://github.com/Papuuu21",
         "technologies": [
         {
-            "icon": "wifi",
-            "name": "Redes WiFi",
+            "icon": "network",
+            "name": "Infraestructura de Redes WIFI",
             "type": "lucide"
         },
         {
             "icon": "network",
-            "name": "Infraestructura de Red",
+            "name": "Excel",
             "type": "lucide"
         },
         {
             "icon": "shield",
-            "name": "Seguridad de Red",
+            "name": "Diseño de planos",
             "type": "lucide"
         }
         ]
     },
     {
         "icon": "factory",
-        "title": "Responsable de Administracion y Marketing",
+        "title": "ADMINISTRACION Y BI",
         "subtitle": "DdA Telecomunicaciones SL",
-        "description": "Coordinacion de procesos de seleccion y contratacion de personal y administracion de nominas y gestion de beneficios para empleados. Mantenimiento de archivos y documentacion laboral  y PRL de manera organizada y detallada. Revision de la contabilidad y estados financieros. Control de cobros y pagos a clientes y proveedores, gestion de compras, facturacion y presupuestos de obra. Calendarios, horarios y vacaciones de los trabajadores. Negociacion bancaria para confirming, creditos y mejora de intereses y condiciones bancarias.",
+        "description": "Como responsable de Business Intelligence, gestioné el análisis integral de datos y el seguimiento de KPIs estratégicos. Transforme la información de negocio en insights para impulsar decisiones corporativas.\n\nAnalicé el mercado de FTTH en operadoras como Orange, MásMóvil, Vodafone y Yoigo, optimizando el seguimiento de las instalaciones de FTTH.\n\nTambién coordiné el análisis de datos y gestioné el seguimiento de indicadores en proyectos para identificar oportunidades. Utilicé Power BI y Excel para desarrollar dashboards interactivos que permitieron una monitorización en tiempo real de KPIs. Implementé soluciones que optimizaron los procesos internos y facilitaron la toma de decisiones, detectando áreas de mejora.\n\nGestioné todo el proceso de análisis y comunicación de resultados que fortaleció la capacidad de la empresa para alcanzar sus objetivos a través de decisiones basadas en datos.\n\n",
         "image": "data/logo dda.png",
-        "date": "7 years",
+        "date": "7 años",
         "github" : "https://github.com/Papuuu21",
         "technologies": [
         {
             "icon": "users",
-            "name": "RRHH",
+            "name": "PowerBI",
             "type": "lucide"
         },
         {
             "icon": "calculator",
-            "name": "Contabilidad",
+            "name": "Excel",
+            "type": "lucide"
+        },
+        {
+            "icon": "calculator",
+            "name": "Business Intelligence",
             "type": "lucide"
         },
         {
             "icon": "file-text",
-            "name": "Documentación",
+            "name": "Análisis de Mercado",
             "type": "lucide"
         }
         ]
@@ -178,39 +349,44 @@
     "projects": [
     {
         "icon": "bot",
-        "title": "Chatbot Azure OpenAI",
-        "subtitle": "Chatbot sobre la documentacion de la empresa",
-        "description": "Creacion de chatbots con tecnologia de Microsoft Azure (Azure OpenAI, Search services y blob storage) y la libreria de Python de Azure para atencion al cliente y apoyo a los empleados de la empresa.",
+        "title": "CHATBOT OPENAIvsMISTRAL AI",
+        "subtitle": "Chatbot de atención al clientecon documentos pdf (RAG)",
+        "description": "Este proyecto se enfoca en la creación de un chatbot de atención al cliente capaz de procesar y responder preguntas basadas en documentos PDF.\n\nExplora la creación de un chatbot de atención al cliente capaz de procesar documentos PDF. Se evalúan varios modelos de lenguaje, seleccionando Mistral-7B como la opción más viable por el coste 0 y su posibilidad de uso sin CPU",
         "technologies": [
-        {
-            "icon": "hard-drive",
-            "name": "Azure ",
-            "type": "lucide"
-        },
-        {
-            "icon": "database-search",
-            "name": "Cognitive Services",
-            "type": "lucide"
-        },
-        {
-            "icon": "devicon-azure-plain",
-            "name": "OpenAI",
-            "type": "devicon"
-        },
-        {
-            "icon": "devicon-python-plain",
-            "name": "Python",
-            "type": "devicon"
-        }
+            {
+                "icon": "devicon-azure-plain colored",
+                "name": "Azure",
+                "type": "devicon"
+            },
+            {
+                "icon": "devicon-python-plain colored",
+                "name": "Python",
+                "type": "devicon"
+            },
+            {
+                "icon": "brain-circuit",
+                "name": "Hugging Face",
+                "type": "lucide"
+            },
+            {
+                "icon": "brain-circuit",
+                "name": "Mistral",
+                "type": "lucide"
+            },
+            {
+                "icon": "brain-circuit",
+                "name": "OpenAI",
+                "type": "lucide"
+            }
         ],
-        "image": "data/azure_logo.png",
-        "github": "https://github.com/Papuuu21"
+        "image": "data/Chatbot.png",
+        "github": "https://github.com/Papuuu21/IA-Keepc"
     },
     {
         "icon": "trophy",
-        "title": "Web Copa Fantasy Friends",
-        "subtitle": "Resultados copa Fantasy",
-        "description": "Web para que los participantes de la copa fantasy puedan ver los resultados de sus partidos y los enfrentamientos.",
+        "title": "ML PRECIOS AIRBNB MADRID",
+        "subtitle": "Predicción de Precios de Airbnb con Machine Learning",
+        "description": "Este proyecto aborda la predicción de precios de Airbnb utilizando técnicas de Machine Learning. Se cubren todas las etapas del ciclo de vida de un proyecto de Machine Learning, desde la preparación de datos hasta la evaluación del modelo, permitiendo a los participantes adquirir habilidades valiosas en el campo del aprendizaje automático aplicado a problemas de regresión, random forest y decision Tree.",
         "technologies": [
         {
             "icon": "devicon-python-plain",
@@ -218,58 +394,329 @@
             "type": "devicon"
         },
         {
-            "icon": "devicon-css3-plain",
-            "name": "Css3",
+            "icon": "devicon-scikitlearn-plain colored",
+            "name": "Scikit-Learn",
             "type": "devicon"
         },
         {
-            "icon": "layout",
-            "name": "Reflex.dev",
-            "type": "lucide"
-        }
-        ],
-        "image": "data/webcopa.png",
-        "github": "https://github.com/Papuuu21"
-    },
-    {
-        "icon": "brain-circuit",
-        "title": "Machine Learning y Deep Learning",
-        "subtitle": "Aplicaciones de machine learning y deep learning en la empresa (En proceso)",
-        "description": "Proyecto del curso aplicando tecnicas de machine learning y deep learning a las areas funcionales de la empresa.",
-        "technologies": [
-        {
-            "icon": "devicon-python-plain",
-            "name": "Numpy",
-            "type": "devicon"
-        },
-        {
-            "icon": "devicon-python-plain",
+            "icon": "devicon-pandas-plain colored",
             "name": "Pandas",
             "type": "devicon"
         },
         {
-            "icon": "line-chart",
-            "name": "Matplotlib/Seaborn",
-            "type": "lucide"
+            "icon": "devicon-matplotlib-plain colored",
+            "name": "Matplotlib",
+            "type": "devicon"
+        }
+        ],
+        "image": "data/ML_modelos.png",
+        "github": "https://github.com/Papuuu21/MachineLearning-Keepc"
+    },
+    {
+        "icon": "brain-circuit",
+        "title": "DL PREDICCIÓN EGAGEMENT ROI",
+        "subtitle": "Predicción de engagement de puntos de interés (ROI)",
+        "description": "Este proyecto se centra en el desarrollo de un modelo de deep learning capaz de predecir el nivel de engagement potencial de puntos de interés (POIs) turísticos, combinando información visual (imágenes) y metadatos asociados. El objetivo es optimizar la selección de contenido y mejorar la experiencia del usuario para Artgonuts.\n\nEste proyecto aborda la predicción del éxito de atracciones turísticas mediante un modelo de deep learning que integra información visual y metadatos. Se cubren todas las etapas del ciclo de vida de un proyecto de deep learning, desde la preparación de datos hasta la evaluación del modelo, permitiendo a los participantes adquirir habilidades valiosas en el campo del aprendizaje profundo. ",
+        "technologies": [
+        {
+            "icon": "devicon-python-plain colored",
+            "name": "Python",
+            "type": "devicon"
         },
         {
-            "icon": "calculator",
-            "name": "Statsmodels",
-            "type": "lucide"
+            "icon": "devicon-pandas-plain colored",
+            "name": "Pandas",
+            "type": "devicon"
         },
         {
-            "icon": "brain",
-            "name": "Machine Learning",
-            "type": "lucide"
+            "icon": "devicon-matplotlib-plain colored",
+            "name": "Matplotlib",
+            "type": "devicon"
         },
         {
-            "icon": "network",
-            "name": "Redes Neuronales",
-            "type": "lucide"
+            "icon": "devicon-pytorch-original colored",
+            "name": "Pytorch",
+            "type": "devicon"
         }
         ],
         "image": "data/ML.jpg",
-        "github": "https://github.com/Papuuu21"
+        "github": ""
+    },
+    {
+        "icon": "brain-circuit",
+        "title": "POWERBI AIRBNB MADRID",
+        "subtitle": "Exploración y visualización de datos de airbnb de Madrid con Power BI",
+        "description": "Este proyecto tiene como objetivo evaluar los conocimientos de NLP mediante la realización de un análisis de sentimiento en reviews de Amazon.\n\nEste proyecto proporciona una experiencia práctica en el análisis de sentimiento utilizando reviews de Amazon. Se cubren todas las etapas de un proyecto de NLP, desde la exploración de datos hasta la evaluación del modelo, permitiendo a los participantes adquirir habilidades valiosas en el campo del procesamiento del lenguaje natural.",
+        "technologies": [
+        
+        {
+            "icon": "",
+            "name": "PowerBI",
+            "type": "lucide"
+        },
+        {
+            "icon": "",
+            "name": "DAX",
+            "type": "lucide"
+        }
+        ],
+        "image": "data/Top10Barrios.png",
+        "github": "https://github.com/Papuuu21/Visualizacion_datos-Keepc"
+    },
+    {
+        "icon": "brain-circuit",
+        "title": "NLP: ANÁLISIS DE SENTIMIENTO",
+        "subtitle": "NLP: Análisis de Sentimiento con Reviews de Amazon de videojuegos",
+        "description": "Este proyecto tiene como objetivo la realización de un análisis de sentimiento en reviews de Amazon.\n\nSe cubren todas las etapas de un proyecto de NLP, desde la exploración de datos hasta la evaluación del modelo, permitiendo a los participantes adquirir habilidades valiosas en el campo del procesamiento del lenguaje natural.",
+        "technologies": [
+        {
+            "icon": "devicon-python-plain colored",
+            "name": "Python",
+            "type": "devicon"
+        },
+        {
+            "icon": "devicon-pandas-plain colored",
+            "name": "Pandas",
+            "type": "devicon"
+        },
+        {
+            "icon": "devicon-matplotlib-plain colored",
+            "name": "Matplotlib",
+            "type": "devicon"
+        },
+        {
+            "icon": "devicon-scikitlearn-plain colored",
+            "name": "Scikit-Learn",
+            "type": "devicon"
+        },
+        {
+            "icon": "",
+            "name": "Gensim",
+            "type": "lucide"
+        },
+        {
+            "icon": "",
+            "name": "Re",
+            "type": "lucide"
+        },
+        {
+            "icon": "",
+            "name": "WordCloud",
+            "type": "lucide"
+        },
+        {
+            "icon": "",
+            "name": "SciPy",
+            "type": "lucide"
+        },
+        {
+            "icon": "",
+            "name": "NLTK",
+            "type": "lucide"
+        }
+        ],
+        "image": "data/NLP.png",
+        "github": "https://github.com/Papuuu21/SentimentAnalisis-Keepc"
+    },
+    {
+        "icon": "brain-circuit",
+        "title": "SQL CLIENTES OPERADORA",
+        "subtitle": "SQL: Diseño, Creación y Transformación de Datos en SQL y Data Warehouse",
+        "description": "Este proyecto abarca desde el diseño de un modelo de datos para Keepcoding hasta la creación y transformación de datos para un Data Warehouse, utilizando SQL y PostgreSQL.\n\nEste proyecto proporciona una experiencia práctica en el diseño, creación y transformación de datos utilizando SQL y PostgreSQL.\n\nSe cubren todas las etapas del ciclo de vida de un proyecto de Data Warehouse, desde el diseño del modelo de datos hasta la creación de tablas de resumen y la implementación de funciones de limpieza de datos.",
+        "technologies": [
+        {
+            "icon": "devicon-postgresql-plain colored",
+            "name": "SQL",
+            "type": "devicon"
+        },
+        {
+            "icon": "",
+            "name": "ETL y DataWarehouse",
+            "type": "lucide"
+        }
+        ],
+        "image": "data/SQL.png",
+        "github": "https://github.com/Papuuu21/SQL_Advanced-keepcoding"
+    },
+    {
+        "icon": "brain-circuit",
+        "title": "DESPLIEGUE DE ALGORITMO",
+        "subtitle": "Despliegue de algoritmo de clasificación de texto con FastApi y Google Cloud Run",
+        "description": "Proyecto de clasificación de texto que incluye desde el preprocesamiento de datos hasta el despliegue de un servicio web escalable en Google Cloud Run, utilizando FastAPI y MLflow.\n\nEl objetivo principal es construir un modelo de aprendizaje automático capaz de identificar los sentimientos de los usuarios en base a sus reseñas de videojuegos, utilizando técnicas de procesamiento de lenguaje natural (PLN) y herramientas de MLOps para el seguimiento y despliegue del modelo.",
+        "technologies": [
+        {
+            "icon": "devicon-fastapi-plain colored",
+            "name": "Fastapi",
+            "type": "devicon"
+        },
+        {
+            "icon": "devicon-googlecloud-plain colored",
+            "name": "GCP",
+            "type": "devicon"
+        },
+        {
+            "icon": "devicon-scikitlearn-plain colored",
+            "name": "Scikit-Learn",
+            "type": "devicon"
+        },
+        {
+            "icon": "devicon-docker-plain colored",
+            "name": "Docker",
+            "type": "devicon"
+        },
+        {
+            "icon": "devicon-python-plain colored",
+            "name": "Python",
+            "type": "devicon"
+        },
+        {
+            "icon": "",
+            "name": "MLOps",
+            "type": "lucide"
+        },
+        {
+            "icon": "",
+            "name": "NLP",
+            "type": "lucide"
+        },
+        {
+            "icon": "",
+            "name": "MLFlow",
+            "type": "lucide"
+        }
+        ],
+        "image": "data/mlops.png",
+        "github": "https://github.com/Papuuu21/despliegue-Keepc"
+    },
+    {
+        "icon": "brain-circuit",
+        "title": "BIGDATA PROCESSING",
+        "subtitle": "BigData Processing con Scala y Spark",
+        "description": "Este proyecto proporciona una introducción práctica al procesamiento de datos con Apache Spark, cubriendo una variedad de operaciones y conceptos clave. Desde la manipulación de DataFrames y el uso de UDFs hasta el procesamiento de RDDs y archivos CSV, los ejercicios demuestran la versatilidad y potencia de Spark para el análisis de grandes volúmenes de datos.  ",
+        "technologies": [
+        {
+            "icon": "devicon-apachespark-plain colored",
+            "name": "Spark",
+            "type": "devicon"
+        },
+        {
+            "icon": "devicon-scala-plain colored",
+            "name": "Scala",
+            "type": "devicon"
+        }
+        ],
+        "image": "data/BDProcessing.png",
+        "github": "https://github.com/Papuuu21/BDProcessing-ScalaSpark-Keepc"
+    },
+    {
+        "icon": "brain-circuit",
+        "title": "BIGDATA ARCHITECTURE",
+        "subtitle": "BigData Architecture: Conexión Hadoop-ElasticSearch con Hive",
+        "description": "Este proyecto demuestra la integración de Hadoop y Elasticsearch, utilizando Hive como puente, para habilitar el análisis de datos en tiempo real y la búsqueda eficiente sobre grandes volúmenes de datos.\n\nSe configuró un cluster Hadoop en Dataproc y un servidor Elasticsearch, asegurando la conectividad entre ellos mediante la instalación de JARs específicos y la modificación de configuraciones clave en Hive.\n\nSe utilizaron comandos curl para interactuar con la API de Elasticsearch, creando índices y agregando datos. Finalmente, se exploraron las capacidades de visualización de Kibana, creando dashboards sencillos para analizar los datos indexados.\n\nEste proyecto proporciona una base sólida para entender cómo combinar la potencia de Hadoop para el procesamiento de grandes datos con la velocidad y flexibilidad de Elasticsearch para la búsqueda y análisis en tiempo real.",
+        "technologies": [
+        {
+            "icon": "devicon-python-plain colored",
+            "name": "Python",
+            "type": "devicon"
+        },
+        {
+            "icon": "devicon-hadoop-plain colored",
+            "name": "Hadoop",
+            "type": "devicon"
+        },
+        {
+            "icon": "devicon-kibana-plain colored",
+            "name": "Kibana",
+            "type": "devicon"
+        },
+        {
+            "icon": "devicon-googlecloud-plain colored",
+            "name": "GCP Dataproc",
+            "type": "devicon"
+        },
+        {
+            "icon": "devicon-elasticsearch-plain colored",
+            "name": "ElasticSearch",
+            "type": "devicon"
+        },
+        {
+            "icon": "",
+            "name": "Hive",
+            "type": "lucide"
+        }
+        ],
+        "image": "data/bdArqu.jpg",
+        "github": "https://github.com/Papuuu21/BigData_Arch_Keepc"
+    },
+    {
+        "icon": "brain-circuit",
+        "title": "ESTADÍSTICA CON R",
+        "subtitle": "Análisis esploratorio y visualización de datos de Airbnb de Madrid con R",
+        "description": "Este proyecto tiene como objetivo analizar y predecir los metros cuadrados de apartamentos en Madrid utilizando datos de Airbnb. A partir de un dataset descargado, filtramos, limpiamos y transformamos la información para identificar patrones en los tamaños de los apartamentos y desarrollar un modelo predictivo para estimar los metros cuadrados en función de otras variables disponibles.",
+        "technologies": [
+        {
+            "icon": "devicon-r-plain colored",
+            "name": "R",
+            "type": "devicon"
+        },
+        {
+            "icon": "devicon-rstudio-plain colored",
+            "name": "R Studio",
+            "type": "devicon"
+        },
+        {
+            "icon": "",
+            "name": "EDA",
+            "type": "lucide"
+        },
+        {
+            "icon": "",
+            "name": "Regresión lineal",
+            "type": "lucide"
+        },
+        {
+            "icon": "",
+            "name": "Estadistica",
+            "type": "lucide"
+        }
+        ],
+        "image": "data/R.png",
+        "github": "https://github.com/Papuuu21/Estadistica-keepc"
+    },
+    {
+        "icon": "brain-circuit",
+        "title": "ÁLGEBRA LINEAL CON NUMPY",
+        "subtitle": "Proyecto de Regresión Lineal con Descenso del Gradiente y Mínimos Cuadrados",
+        "description": "Este proyecto utiliza un conjunto de datos de consumo de vehículos proporcionado por el repositorio de Machine Learning de la Universidad de California en Irvine. El objetivo es aplicar un modelo de regresión lineal para predecir el consumo de combustible de los vehículos basado en diversas características, con especial énfasis en la variable weight. A lo largo del proyecto, implementaremos dos métodos para ajustar el modelo: mínimos cuadrados y descenso del gradiente.",
+        "technologies": [
+        {
+            "icon": "devicon-numpy-plain colored",
+            "name": "Numpy",
+            "type": "devicon"
+        },
+        {
+            "icon": "devicon-pandas-plain colored",
+            "name": "Pandas",
+            "type": "devicon"
+        },
+        {
+            "icon": "devicon-scikitlearn-plain colored",
+            "name": "Scikit-Learn",
+            "type": "devicon"
+        },
+        {
+            "icon": "devicon-matplotlib-plain colored",
+            "name": "Matplotlib",
+            "type": "devicon"
+        },
+        {
+            "icon": "devicon-python-plain colored",
+            "name": "Python",
+            "type": "devicon"
+        }
+        ],
+        "image": "data/algebra.png",
+        "github": "https://github.com/Papuuu21/Algebra-keepc"
     }
     ],
     "training": [
@@ -277,90 +724,120 @@
         "icon": "graduation-cap",
         "title": "Bootcamp Big data, inteligencia artificial y machine learning fullstack",
         "subtitle": "Keepcoding",
-        "description": "Arquitectura Cloud, Python, Scala, SQL/NoSQL, visualizacion con Tableau y JS, analisis con R, y modelado con IA, incluyendo Machine Learning, Deep Learning y NLP. Modelos de IA en la nube para ser el proximo experto en Data Science y Arquitecto Big Data.",
-        "date": "En curso",
-        "certificate": "data/Temario Bootcamp.pdf",
-        "image": "data/Cursos varios.jpg",
+        "description": "Este Bootcamp de Data Science te ofrecerá todos los conocimientos necesarios para crear una solución profesional y completa enfocada 100% en datos.\n\nAplicado al sector del Big Data dominando desde la necesaria Arquitectura Cloud, la captura y procesamiento de datos con Python y Scala sobre Spark, almacenamiento SQL y NoSQL, visualización de los datos con PowerBI, análisis estadístico con R, modelado de IA con Machine Learning «tradicional» así como Deep Learning y NLP e incluso el despliegue en la nube de modelos de Inteligencia Artificial.\n\nCapaz de trabajar conjuntos de datos de diferentes tamaños y aplicar a puestos del ciclo completo del dato como: Arquitecto Big Data, Desarrollador Spark, Data Scientist, Deep Learning Engineer",
+        "date": "1 año",
+        "certificate": "data/Diplomas_bigdata.pdf",
+        "image": "data/keepcoding_logo.jpg",
         "technologies": [
         {
-            "icon": "devicon-python-plain",
+            "icon": "devicon-python-plain colored",
             "name": "Python",
             "type": "devicon"
         },
         {
-            "icon": "devicon-amazonwebservices-plain",
-            "name": "Arquitectura Cloud AWS",
+            "icon": "devicon-googlecloud-plain colored",
+            "name": "GCP",
             "type": "devicon"
         },
         {
-            "icon": "devicon-azure-plain",
-            "name": "Arquitectura Cloud Azure",
+            "icon": "devicon-postgresql-plain colored",
+            "name": "SQL",
             "type": "devicon"
         },
         {
-            "icon": "devicon-scala-plain",
+            "icon": "devicon-scala-plain colored",
             "name": "Scala",
             "type": "devicon"
         },
         {
-            "icon": "devicon-scala-plain",
-            "name": "SQL/NoSQL",
-            "type": "lucide"
-        },
-        {
-            "icon": "devicon-javascript-plain",
-            "name": "JavaScrip",
+            "icon": "devicon-mongodb-plain colored",
+            "name": "NoSQL",
             "type": "devicon"
         },
         {
-            "icon": "devicon-r-plain",
+            "icon": "devicon-hadoop-plain colored",
+            "name": "Hadoop",
+            "type": "devicon"
+        },
+        {
+            "icon": "devicon-r-plain colored",
             "name": "R",
             "type": "devicon"
         },
         {
-            "icon": "devicon-scala-plain",
-            "name": "ML/DL/NLP",
+            "icon": "devicon-scikitlearn-plain colored",
+            "name": "Scikit-Learn",
+            "type": "devicon"
+        },
+        {
+            "icon": "devicon-pytorch-original colored",
+            "name": "Pytorch",
+            "type": "devicon"
+        },
+        {
+            "icon": "devicon-numpy-plain colored",
+            "name": "Numpy",
+            "type": "devicon"
+        },
+        {
+            "icon": "devicon-pandas-plain colored",
+            "name": "Pandas",
+            "type": "devicon"
+        },
+        {
+            "icon": "devicon-fastapi-plain colored",
+            "name": "Fastapi",
+            "type": "devicon"
+        },
+        {
+            "icon": "devicon-docker-plain colored",
+            "name": "Docker",
+            "type": "devicon"
+        },
+        {
+            "icon": "",
+            "name": "Hugging Face",
             "type": "lucide"
         },
         {
-            "icon": "devicon-scala-plain",
-            "name": "ETL y DataWarehouse",
+            "icon": "",
+            "name": "Spacy",
             "type": "lucide"
         },
         {
-            "icon": "devicon-scala-plain",
-            "name": "Arquitectura Big Data",
-            "type": "lucide"
-        },
-        {
-            "icon": "bar-chart-3",
+            "icon": "",
             "name": "PowerBI",
-            "type": "lucide"
-        },
-        {
-            "icon": "pie-chart",
-            "name": "Tableau",
             "type": "lucide"
         }
         ]
     },
     {
         "icon": "graduation-cap",
-        "title": "Curso para analisis de datos con Python (375H)",
+        "title": "Análisis de datos con Python (375H)",
         "subtitle": "Master D.",
-        "description": "Aprendizaje del lenguaje de programacion de python y de las librerias Numpy, Pandas, Seaborn y Statsmodels para el analisis de datos.",
+        "description": "Este curso me permitió desarrollar habilidades clave en programación con Python, incluyendo estructuras de datos, control de flujo y funciones.\n\nEn el módulo de análisis de datos, aprendí a utilizar Numpy y Pandas para la manipulación y limpieza eficiente de datos, así como Seaborn y Matplotlib para visualización avanzada.\n\nTambién adquirí conocimientos en Statsmodels para análisis estadístico, regresión y modelado predictivo. Se abordaron técnicas de exploración de datos, detección de valores atípicos y tratamiento de datos faltantes. Además, se trabajó con datasets reales aplicando metodologías prácticas para extraer insights y apoyar la toma de decisiones basada en datos.",
         "date": "1 years",
         "certificate": "data/Diploma Python.pdf",
-        "image": "data/Cursos varios.jpg",
+        "image": "data/MasterD.png",
         "technologies": [
         {
-            "icon": "devicon-python-plain",
+            "icon": "devicon-python-plain colored",
             "name": "Python",
             "type": "devicon"
         },
         {
-            "icon": "devicon-pandas-original",
+            "icon": "devicon-pandas-plain colored",
             "name": "Pandas",
+            "type": "devicon"
+        },
+        {
+            "icon": "devicon-matplotlib-plain colored",
+            "name": "Matplotlib",
+            "type": "devicon"
+        },
+        {
+            "icon": "devicon-numpy-plain colored",
+            "name": "Numpy",
             "type": "devicon"
         },
         {
@@ -369,14 +846,9 @@
             "type": "lucide"
         },
         {
-            "icon": "bar-chart-4",
-            "name": "Seaborn",
+            "icon": "calculator",
+            "name": "EDA",
             "type": "lucide"
-        },
-        {
-            "icon": "devicon-numpy-original",
-            "name": "Numpy",
-            "type": "devicon"
         }
         ]
     },
@@ -384,85 +856,34 @@
         "icon": "graduation-cap",
         "title": "Marketing e investigacion de mercados",
         "subtitle": "UMA",
-        "description": "Grado en marketing e investigacion de mercados en la Universidad de Malaga",
+        "description": "​El Grado en Marketing e Investigación de Mercados de la Universidad de Málaga, forma profesionales capaces de alcanzar objetivos comerciales en diversas organizaciones.\n\nEl programa abarca áreas como investigación de mercados, comportamiento del consumidor, análisis de la competencia, estrategias de productos y precios, gestión de comercialización y canales de distribución, contabilidad, estadística y econometría. Se centra en estrategias de publicidad y promoción, tanto en medios tradicionales como en comunicación en línea.\n\nEste enfoque integral permite a los estudiantes adaptarse al dinámico entorno económico y empresarial actual.",
         "date": "7 years",
         "certificate": "data/titulo Marketing.pdf",
-        "image": "data/Cursos varios.jpg",
+        "image": "data/UMA.jpg",
         "technologies": [
+            {
+                "icon": "book",
+                "name": "Análisis de datos",
+                "type": "lucide"
+            },
+            {
+                "icon": "book",
+                "name": "Marketing digital",
+                "type": "lucide"
+            },
+            {
+                "icon": "book",
+                "name": "Invest. Mercados",
+                "type": "lucide"
+            },
         {
             "icon": "book",
-            "name": "Econometria",
+            "name": "Econometría",
             "type": "lucide"
         },
         {
             "icon": "book",
-            "name": "Estadistica",
-            "type": "lucide"
-        }
-        ]
-    },
-    {
-        "icon": "scroll",
-        "title": "Diplomas certificaciones tech",
-        "subtitle": "Udemy, Keepcoding, Andalucia Vuela y Scrum",
-        "description": "Diplomas de las certificaciones tech de autoaprendizaje en las plataformas de Udemy, Keepcoding, Andalucia Vuela y Scrum ",
-        "date": "1 years",
-        "certificate": "data/Diplomas_tech.pdf",
-        "image": "data/Cursos varios.jpg",
-        "technologies": [
-        {
-            "icon": "devicon-azure-plain",
-            "name": "Azure",
-            "type": "devicon"
-        },
-        {
-            "icon": "database",
-            "name": "SQL",
-            "type": "lucide"
-        },
-        {
-            "icon": "devicon-git-plain",
-            "name": "Git, Github y SourceTree",
-            "type": "devicon"
-        },
-        {
-            "icon": "devicon-docker-plain",
-            "name": "Docker",
-            "type": "devicon"
-        },
-        {
-            "icon": "link",
-            "name": "LangChain",
-            "type": "lucide"
-        },
-        {
-            "icon": "brain",
-            "name": "OpenAI",
-            "type": "lucide"
-        },
-        {
-            "icon": "brain-circuit",
-            "name": "ML/DL",
-            "type": "lucide"
-        },
-        {
-            "icon": "devicon-django-plain",
-            "name": "Django",
-            "type": "devicon"
-        },
-        {
-            "icon": "devicon-flask-original",
-            "name": "Flask",
-            "type": "devicon"
-        },
-        {
-            "icon": "kanban",
-            "name": "Scrum Master",
-            "type": "lucide"
-        },
-        {
-            "icon": "shield",
-            "name": "Ciberseguridad",
+            "name": "Estadística",
             "type": "lucide"
         }
         ]

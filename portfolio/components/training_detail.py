@@ -6,13 +6,12 @@ from portfolio.components.icon_button import icon_button
 from portfolio.components.devicon_badge import devicon_badge
 
 estilo_card = {
-    "background_color": "#283747",
+    "background_color": "#202248",
     "border": "3px solid #F4D03F",
     "border_radius": "20px",
     "box_shadow": "4px 8px #4E1511",
     "width": "100%",
-    #"max_width" : "400px",
-    "overflow": "hidden"
+    "overflow": "hidden"  
 }
 
 def training_detail(info) -> rx.Component:
@@ -23,21 +22,23 @@ def training_detail(info) -> rx.Component:
                 rx.text(
                     info.title, 
                     weight="bold", 
-                    color_scheme="cyan",
+                    color = "#5da730",
                     width="100%"
                 ), 
                 rx.text(
                     info.subtitle, 
                     weight="bold", 
-                    color_scheme="cyan",
+                    color = "#5da730",
                     width="100%"
                 ),
                 rx.text( 
                     info.description,
-                    size='2',
-                    weight="bold",
+                    size='1',
                     width="100%",
-                    color = 'tomato'
+                    color = '#876505',
+                    white_space="pre-line",
+                    style={"font_family": "Open Sans Medium 500"},
+
                 ),
                 # Middle section: technologies in horizontal row
                 rx.flex(
@@ -48,22 +49,24 @@ def training_detail(info) -> rx.Component:
                                 rx.cond(
                                     tech.type == "devicon",
                                     devicon_badge(tech.icon),
-                                    rx.icon(tag='computer')
+                                    rx.icon(
+                                        tag='book-check',
+                                        color = 'orange' 
+                                    )
                                 ),
                                 tech.name,
                                 align="center",
                                 size='1',
-                                color_scheme='cyan',
                                 radius='full',
-                                variant='soft',
-                                color = 'cyan',
+                                variant='surface',
+                                color = '#5da730',
                                 spacing = '2',
-                                padding_x = '2',
+                                padding_x = '2'
                             ),
                     ),
                     justify="start",
                     wrap="wrap",
-                    spacing='3',
+                    spacing='3', 
                     width="100%"
                 ),
                 align_items="flex-start",
@@ -85,7 +88,9 @@ def training_detail(info) -> rx.Component:
                         rx.badge(
                             'Finalizado', 
                             size='2', 
-                            variant='soft'),
+                            variant='surface',
+                            color = '#5da730'
+                            ),
                     rx.cond(
                         hasattr(info, "certificate") and info.certificate != "",
                         rx.badge(
@@ -94,8 +99,15 @@ def training_detail(info) -> rx.Component:
                                 info.certificate,
                                 solid=False,
                             ),
-                            variant="soft",
-                            size='2',
+                            variant="surface",
+                            size='3',
+                            _hover = 
+                                {
+                                'border_color': 'gray.500', "transform": "translateY(-5px)", 
+                                "transition": "transform 0.3s ease", "background_color": "#0090FF",
+                                "cursor": "pointer"
+                                },      
+                            
                         ),
                     ),
                     width="100%",

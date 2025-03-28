@@ -3,7 +3,8 @@ from portfolio.components.icon_button import icon_button
 
 
 def icon_button(icon: str, url: str, text = "", solid = False) -> rx.Component:
-    return rx.button(rx.flex(
+    return rx.button(
+        rx.flex(
             rx.icon(icon),
             text,
             width= '100%',
@@ -13,15 +14,14 @@ def icon_button(icon: str, url: str, text = "", solid = False) -> rx.Component:
             padding_bottom = '3em',
             padding_top = '3em',
             ),
-            variant= "solid" if solid else "surface",
-            border_radius = "full",
+            radius='full',
+            variant='surface',
+            color = '#5da730',
             spacing = '5',
-            border = '1px solid',
-            border_color = 'gray.300',
             _hover = {'border_color': 'gray.500', "transform": "translateY(-5px)", 
                         "transition": "transform 0.3s ease", "background_color": "#0090FF",
                         "cursor": "pointer"
-            }, 
+            },            
             on_click = rx.redirect(url, True),  #* Ya no hace falta poner rx.link para hacer clickables los botones (se sustituye por on_click)
         )
 

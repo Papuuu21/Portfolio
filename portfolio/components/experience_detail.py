@@ -6,7 +6,7 @@ from portfolio.components.icon_button import icon_button
 from portfolio.components.devicon_badge import devicon_badge
 
 estilo_card = {
-    "background_color": "#283747",
+    "background_color" : "#202248",
     "border": "3px solid #F4D03F",
     "border_radius": "20px",
     "box_shadow": "4px 8px #4E1511",
@@ -23,21 +23,22 @@ def experience_detail(info) -> rx.Component:
                         rx.text(
                             info.title,
                             weight="bold",
-                            color_scheme="cyan", 
+                            color = "#5da730", 
                             width="100%"
                         ), 
                         rx.text(
                             info.subtitle,
                             weight="bold",
-                            color_scheme="cyan",
+                            color = "#5da730",
                             width="100%"
                         ),
                         rx.text(
                             info.description,
-                            size='2',
-                            weight="bold",
+                            size='1',
                             width="100%",
-                            color = 'tomato'
+                            color = '#876505',
+                            white_space="pre-line",
+                            style={"font_family": "Open Sans Medium 500"},
                         ),
                         # Technologies section
                         rx.flex(
@@ -48,15 +49,17 @@ def experience_detail(info) -> rx.Component:
                                         rx.cond(
                                             tech.type == "devicon",
                                             devicon_badge(tech.icon),
-                                            rx.icon(tag='computer')
+                                            rx.icon(
+                                                tag='computer', 
+                                                color = 'orange'
+                                            )
                                         ),
                                         tech.name,
                                         align="center",
                                         size='1',
-                                        color_scheme='cyan',
+                                        color = '#5da730',
                                         radius='full',
-                                        variant='soft',
-                                        color = 'cyan',
+                                        variant='surface',
                                         spacing = '2',
                                         padding_x = '2',
                                     ),
@@ -64,12 +67,13 @@ def experience_detail(info) -> rx.Component:
                             justify="start",
                             wrap="wrap",
                             spacing='3',
-                            width="100%"
+                            width="100%",
+                            color = '#202248'
                         ),
                         align_items="flex-start",
                         width="70%",
                         spacing="2"
-                    ),
+                    ), 
                     # Right section: image, date and links
                     rx.vstack(
                         rx.cond(
@@ -87,12 +91,13 @@ def experience_detail(info) -> rx.Component:
                                 rx.badge(
                                     info.date,
                                     size='2',
-                                    variant='soft'
+                                    variant='surface',
+                                    color = '#5da730'
                                 ),
                             ),
                             width="100%",
                             align_items="center",
-                            spacing="2"
+                            spacing="2",
                         ),
                         width="30%",
                         align_items="center",
@@ -108,4 +113,5 @@ def experience_detail(info) -> rx.Component:
         _hover={"transform": "translateY(-5px)", "transition": "transform 0.3s ease"}, #* _hover = {"background_color": "#2ECC71","cursor": "pointer"}
         style = estilo_card,
         spacing = '2',
+        
         )

@@ -10,7 +10,7 @@ from portfolio.views.training import training
 from portfolio.views.skills import skills
 from portfolio.state import PortfolioState
 
-def index() -> rx.Component:
+def index() -> rx.Component:  
     return rx.center(
         rx.vstack(
             header(),
@@ -27,9 +27,9 @@ def index() -> rx.Component:
             footer(),
             spacing=Size.LARGE.value,
             padding_y=EmSize.BIG.value,
-            max_width=MAX_WIDTH,
+            max_width=MAX_WIDTH,  
             width="100%",
-            on_mount=PortfolioState.on_load,
+            on_mount=PortfolioState.on_load, 
         ), 
     )
 
@@ -42,7 +42,6 @@ STYLE_SHEETS = [DEVICON_STYLESHEET, GOOGLE_FONTS]  # Añadimos la nueva
 BASE_STYLE = {
     "font_family": "'Press Start 2P', monospace",
     "background_color": "#283747",
-    "color": "#F5F5DC",
 }
 
 app = rx.App(
