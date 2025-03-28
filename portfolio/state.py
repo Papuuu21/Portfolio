@@ -59,7 +59,7 @@ class PortfolioState(rx.State):
 
     @rx.event
     async def on_load(self):
-        with open("assets/data.json", "r", encoding="utf-8") as f:
+        with open("portfolio/data.json", "r", encoding="utf-8") as f:
             data = json.load(f)
             # Cargar propiedades básicas
             self.title = data["title"]
